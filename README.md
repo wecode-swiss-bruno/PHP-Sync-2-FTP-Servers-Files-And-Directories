@@ -57,3 +57,5 @@ This script requires a PHP interpreter and the FTP extension enabled.
 
 If any errors occur during the FTP connection or file transfer process, an error message will be displayed.
 
+## USECASES
+I've create this script to Syncronize a shared folder on a Synology NAS to a FTP folder on a hosting provider not using WebDav or any other Synology compatible protocol.

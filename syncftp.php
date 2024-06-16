@@ -1,10 +1,10 @@
 <?php
 
-$ftpHost = "bstuder.synology.me";
-$ftpUser = "fdsdocumentationsyncftp";
-$ftpPassword = "]'5Q..sadfas";
-$remoteDir = "/";
-$localDir = "./public_files";
+$ftpHost = "YOUR_FTP_HOST_HERE";
+$ftpUser = "YOUR_USERNAME_HERE";
+$ftpPassword = "YOUR_PASSWORD_HERE";
+$remoteDir = "/"; //Example: "/" . "/public_html" or "/public_html/files"
+$localDir = "./public_files"; //Example: "./" or "./public_files" or "./public_files/files"
 $fileTypes = '.'; // example: use "." for all files or ".pdf" for specific file types (multiple fileTypes are not supported yet)
 
 // Function to list remote files recursively
