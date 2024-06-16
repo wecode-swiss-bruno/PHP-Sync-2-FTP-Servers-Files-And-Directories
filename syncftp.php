@@ -5,7 +5,7 @@ $ftpUser = "fdsdocumentationsyncftp";
 $ftpPassword = "]'5Q..sadfas";
 $remoteDir = "/";
 $localDir = "./public_files";
-$fileTypes = '.';
+$fileTypes = '.'; // example: use "." for all files or ".pdf" for specific file types (multiple fileTypes are not supported yet)
 
 // Function to list remote files recursively
 function listRemoteFiles($remoteDir, $remoteFileList, $fileTypes)
