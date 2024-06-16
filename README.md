@@ -1,23 +1,27 @@
 
-
 # HOW TO USE
+
 1. Update the following variables in the script with your FTP server details:
     - `$ftpHost`: The hostname or IP address of the FTP server.
     - `$ftpUser`: The username for the FTP server.
     - `$ftpPassword`: The password for the FTP server.
     - `$remoteDir`: The remote directory to synchronize.
     - `$localDir`: The local directory to synchronize.
+
 2. Place this script in the root directory of your project.
+
 3. Run the script by visiting a URL linked to it (for example: `www.yourwebsite.com/syncftp.php` ) using a PHP interpreter (e.g. `php file-sync.php`).
 
-
 # CRON JOB (automatic synchronization)
-If you want to run the script in the background, you can use a cron job to execute it at regular intervals.
-Usually, you can set up a cron job directly on your hosting provider's control panel or by using the `crontab` command on a Linux server
-Infos about CRON JOB: https://www.ionos.com/digitalguide/server/configuration/cron-jobs-in-linux/
+
+If you want to run the script in the background, you can use a cron job to execute it at regular intervals. Usually, you can set up a cron job directly on your hosting provider's control panel or by using the `crontab` command on a Linux server.
+
+Infos about CRON JOB: [https://www.ionos.com/digitalguide/server/configuration/cron-jobs-in-linux/](https://www.ionos.com/digitalguide/server/configuration/cron-jobs-in-linux/)
 
 # Infos
+
 Local = your server where this script is running
+
 Remote = the FTP server (source) from where you want to sync files
 
 # File Synchronization Script
@@ -52,3 +56,4 @@ This script requires a PHP interpreter and the FTP extension enabled.
 ## Error Handling
 
 If any errors occur during the FTP connection or file transfer process, an error message will be displayed.
+
